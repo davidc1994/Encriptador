@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptadora</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="headerflex">
+                    <div class="imagen-logo">
+                        <img src="Imagenes/logo.svg" alt="Logo">
+                    </div>
+                    <div class="titulo">
+                        <h1>Encriptador de Texto</h1>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/david-lautaro-c%C3%B3rdoba-897010187/"><img src="Imagenes/linkedin.svg"></a>
+                        <a href="https://github.com/davidc1994"><img src="Imagenes/github.svg"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-area-encriptador">
+                <div class="text-area-encriptadorflex">
+                    <textarea placeholder="Ingrese el texto a Encriptar" cols="60" rows="29" id="text-encriptar"></textarea>
+                    <p id="texto-advertencia">&#9888 Solo letras minúscula y sin caracteres especiales</p>
+                    <div class="botones-encriptar">
+                        <button id="boton-encriptar">Encriptar</button>
+                        <button id="boton-desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-area-encriptado">
+                <div class="text-area-encriptadoflex">
+                    <textarea placeholder="Resultado.." cols="60" rows="29" readonly id="text-encriptado"></textarea>
+                    <div class="boton-copiar">
+                        <button id="boton-copiar">Copiar</button>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footerflex">
+                    <p class="copyright"> Copyright&copy 2022 David Lautaro Córdoba</p> 
+                </div>
+            </footer>
+            <script src="form.js"></script>
+        </div>
+    </body>
+</html>
